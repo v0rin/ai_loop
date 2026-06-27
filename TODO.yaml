@@ -3,7 +3,9 @@
 AI LOOP:
 	STATUS:
 		- I finished v2	but the process is too structured, that's not what LLMs are the best at, critical to have good TODOs, but later worker and reviewer should work in a bit more loose approach
-			- redesign it with a new chat to clean up the context - I created a project ai_loops in Claude with github repo added (I have a project in Intellij ai_loops that's in that repo)
+			- redesign it with a new chat to clean up the context 
+            - I created a project ai_loops in Claude with github repo added (I have a project in Intellij ai_loops that's in that repo)
+              https://claude.ai/project/019f0a12-2881-76ad-b100-1c9d0acfa508
 			- the reviewer should have an option to choose a diff model - the reviewer should alwasy have an exact table to fill or leave empty with status and choices, like accepted, question to the user, use stronger model (it prob should start with a cheap one)
 			- the auditor if reviewer not sure or task problematic - but if after few tries with diff models it's not getting better - the reviewer should be able to make a decision to either accept the task or rephrase it
 			- it's crucial for the planning process to be thorough - tasks, criterias etc. 
